@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8 Debug|Win32'">
+    <EnableDeployment>True</EnableDeployment>
+    <RemoveDriver>False</RemoveDriver>
+    <InstallMode>DriverTest</InstallMode>
+    <HardwareIdString />
+    <CommandLine />
+    <ScriptPath>C:\Program Files (x86)\Windows Kits\8.0\Testing\Tests\DefaultDriverPackageInstallationTask\DefaultDriverPackageInstallationTask.dll</ScriptPath>
+    <DbgengRemoteMachineName>acer2</DbgengRemoteMachineName>
+    <DbgengKernelMachineName>acer2</DbgengKernelMachineName>
+    <DeployFiles />
+    <ScriptName>Microsoft.DriverKit.DefaultDriverPackageInstallationClass.PerformDefaultDriverPackageInstallation</ScriptName>
+    <ScriptDeviceQuery>%PathToInf%</ScriptDeviceQuery>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Win8 Debug|x64'">
+    <EnableDeployment>True</EnableDeployment>
+    <RemoveDriver>True</RemoveDriver>
+    <InstallMode>DriverTest</InstallMode>
+    <HardwareIdString />
+    <CommandLine />
+    <ScriptPath>C:\Program Files (x86)\Windows Kits\8.0\Testing\Tests\DefaultDriverPackageInstallationTask\DefaultDriverPackageInstallationTask.dll</ScriptPath>
+    <DbgengRemoteMachineName>acer2</DbgengRemoteMachineName>
+    <DbgengKernelMachineName>acer2</DbgengKernelMachineName>
+    <DeployFiles />
+    <ScriptName>Microsoft.DriverKit.DefaultDriverPackageInstallationClass.PerformDefaultDriverPackageInstallation</ScriptName>
+    <ScriptDeviceQuery>%PathToInf%</ScriptDeviceQuery>
+    <DebugDeployment>False</DebugDeployment>
+  </PropertyGroup>
+</Project>
